@@ -10,6 +10,9 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
 #import <malloc/malloc.h>
+#import "Teacher1.h"
+#import "Teacher2.h"
+#import "Teacher3.h"
 
 
 //#pragma pack(1)
@@ -58,7 +61,26 @@ int main(int argc, const char * argv[]) {
         MyPerson3.d = 22;
         NSLog(@"Adress=======MyPerson1:%p,MyPerson2:%p,MyPerson3:%p",&MyPerson1,&MyPerson2,&MyPerson3);
 NSLog(@"Size=======MyPerson1:%lu,MyPerson2:%lu,MyPerson3:%lu",sizeof(MyPerson1),sizeof(MyPerson2),sizeof(MyPerson3));
-
+        
+        Teacher1 *t1 = [[Teacher1 alloc] init];
+        t1.a = 'a';
+        t1.b = 8;
+        t1.c = 4;
+        t1.d = 2;
+        
+        Teacher2 *t2 = [[Teacher2 alloc] init];
+        t2.b = 18;
+        t2.a = 'b';
+        t2.c = 14;
+        t2.d = 12;
+        
+        Teacher3 *t3 = [[Teacher3 alloc] init];
+        t3.b = 28;
+        t3.c = 24;
+        t3.a = 'c';
+        t3.d = 22;
+        
+        NSLog(@"Adress=======t1:%p,t2:%p,t3:%p",&t1,&t2,&t3);
     }
     return 0;
 }

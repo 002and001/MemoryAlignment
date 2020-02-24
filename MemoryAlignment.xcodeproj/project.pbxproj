@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		25AD9A6C240112D40073FD3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AD9A6B240112D40073FD3D /* main.m */; };
+		25FDF00C24035E45006367B0 /* Teacher1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDF00B24035E45006367B0 /* Teacher1.m */; };
+		25FDF00F24035E4D006367B0 /* Teacher2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDF00E24035E4D006367B0 /* Teacher2.m */; };
+		25FDF01224035E55006367B0 /* Teacher3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDF01124035E55006367B0 /* Teacher3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,12 @@
 		25AD9A68240112D40073FD3D /* MemoryAlignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MemoryAlignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AD9A6B240112D40073FD3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25AD9A722401893E0073FD3D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		25FDF00A24035E45006367B0 /* Teacher1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher1.h; sourceTree = "<group>"; };
+		25FDF00B24035E45006367B0 /* Teacher1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher1.m; sourceTree = "<group>"; };
+		25FDF00D24035E4D006367B0 /* Teacher2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher2.h; sourceTree = "<group>"; };
+		25FDF00E24035E4D006367B0 /* Teacher2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher2.m; sourceTree = "<group>"; };
+		25FDF01024035E55006367B0 /* Teacher3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher3.h; sourceTree = "<group>"; };
+		25FDF01124035E55006367B0 /* Teacher3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 			children = (
 				25AD9A722401893E0073FD3D /* readme.md */,
 				25AD9A6B240112D40073FD3D /* main.m */,
+				25FDF00A24035E45006367B0 /* Teacher1.h */,
+				25FDF00B24035E45006367B0 /* Teacher1.m */,
+				25FDF00D24035E4D006367B0 /* Teacher2.h */,
+				25FDF00E24035E4D006367B0 /* Teacher2.m */,
+				25FDF01024035E55006367B0 /* Teacher3.h */,
+				25FDF01124035E55006367B0 /* Teacher3.m */,
 			);
 			path = MemoryAlignment;
 			sourceTree = "<group>";
@@ -121,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FDF01224035E55006367B0 /* Teacher3.m in Sources */,
+				25FDF00C24035E45006367B0 /* Teacher1.m in Sources */,
+				25FDF00F24035E4D006367B0 /* Teacher2.m in Sources */,
 				25AD9A6C240112D40073FD3D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
